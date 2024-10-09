@@ -33,5 +33,5 @@ variable "databricks_workspace_name" {
 variable "ml_workspace_name" {
   description = "Name of the Azure Machine Learning workspace"
   type        = string
-  default     = "mlops-dynamic-pricing-mlworkspace"
+  default     = "mlops-dynamic-pricing-workspace"
 }
