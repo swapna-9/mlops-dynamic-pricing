@@ -1,4 +1,5 @@
-.vscode/
+__init__py
+vscode/
 __pycache__/
 terraform.tfstate*
 *.csv
