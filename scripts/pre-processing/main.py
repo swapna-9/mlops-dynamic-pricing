@@ -12,7 +12,7 @@ from handle_missing_values import handle_missing_values
 spark = SparkSession.builder.appName("DataPreprocessing").getOrCreate()
 
 # Step 2: Load data into DataFrame
-df = spark.read.csv("/mnt/data/your_data_file.csv", header=True, inferSchema=True)
+df = spark.read.csv("mlops_pricing.csv", header=True, inferSchema=True)
 
 # Step 3: Clean column names
 df = clean_column_names(df)
